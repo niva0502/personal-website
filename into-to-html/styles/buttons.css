@@ -1,0 +1,95 @@
+.subscribe-button{
+  background-color: rgb(201, 0, 0);
+  color: white;
+  border: none;
+  height: 35px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+.subscribe-button:hover{
+  opacity: 0.7;
+}
+
+.subscribe-button:active{
+  opacity: 0.5;
+}
+.join-button{
+  background-color: white;
+  border-color: rgb(48, 109, 222);
+  border-style: solid;
+  color:  rgb(48, 109, 222);
+  width: 62px;
+  height: 35px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 1s, color 1s;
+}
+
+.join-button:hover{
+  background-color:rgb(48, 109, 222) ;
+  color: white;
+}
+
+.join-button:active{
+  opacity: 0.7;
+}
+
+.tweet-button{
+  background-color:rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size:15px;
+  cursor: pointer;
+  transition: box-shadow 0.5s;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+  
+
+}
+
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+
+}
+.image-box{
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.niva{
+  width:50px;
+  height: 50px;
+  object-fit:cover;
+  border-radius: 25px;
+  
+}
+.texts{
+  display: inline-block;
+
+}
+
+.cat-name{
+  display: inline-block;
+  font-weight: bold;
+  width: 100PX;
+}
+.follow-button{
+  display: inline-block;
+  vertical-align: top;
+}
+.blue-follow{
+  background-color: aqua;
+  color: white;
+  border-radius: 8px;
+}
